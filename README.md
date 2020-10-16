@@ -1,37 +1,72 @@
-## Welcome to GitHub Pages
+# Zigbee Stick v4.0
 
-You can use the [editor on GitHub](https://github.com/mercenaruss/zigbee-stick-v4/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+![](/files/images/3DDefault.PNG)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Features:
 
-### Markdown
+- [TI CC2652P](https://www.ti.com/product/CC2652P) SimpleLink™ 2.4 GHz Multiprotocol Wireless MCU targeting Zigbee,Bluetooth 5.1 Low Energy,Thread + 19.5-dBm high-power amplifier
+- Support RF-BM-2652P1 and RF-BM-2652P2 Module from RF-STAR,with CC2652P on board
+- BSL,RST Buttons
+- 2 LED for indication
+- Compatible with [Z2M](https://www.zigbee2mqtt.io/)
+- SMA antenna port for an external antenna
+- Self-programming via the TI [CC-series serial bootloader](http://www.ti.com/lit/an/swra466c/swra466c.pdf). If is not disabled in code.
+- Communicates via the common CH340E/CH340C USB-UART Bridge
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Boards fit in [v.3 Stick Case](https://github.com/mercenaruss/zigbee-stick-v4/tree/main/files/STL) designed by [Jager](https://github.com/Jager-f)
 
-```markdown
-Syntax highlighted code block
+## Revisions
 
-# Header 1
-## Header 2
-### Header 3
+There are 2 versions of stick:
+- [CH340E version](https://github.com/mercenaruss/zigbee-stick-v4/blob/main/files/gerber/Gerber_Zigbee%20Stick%20v4.0%20-%20CH340E.zip), more compact,all elements on one side
+- [CH340C version](https://github.com/mercenaruss/zigbee-stick-v4/blob/main/files/gerber/Gerber_Zigbee%20Stick%20v4.0%20-%20CH340C.zip), more easy to solder and includes ESD protection
 
-- Bulleted
-- List
+Both versions use the same [3D Model Case](/files/STL)
 
-1. Numbered
-2. List
+### Bill of Materials:
 
-**Bold** and _Italic_ and `Code` text
+EasyEDA Generated Boom,you can order on [LCSC](https://lcsc.com) directly - [BOOM](https://github.com/mercenaruss/zigbee-stick-v4/blob/main/files/BOM_Zigbee%20Stick%204.0%20CH340E-C.csv)
 
-[Link](url) and ![Image](src)
-```
+| Designator  | Name  | Footprint | Quantity |
+| :------------|:---------------|:-----|:--------:|
+| U1| RF-BM-2652P1/P2| | 1 |
+| U2|AMS1117-3.3 |SOT-223| 1 |
+| U3 | CH340E/CH340C|MSOP-10/SOP-16 |1|
+| R1 | 10 kohm|SMD 0805 |1|
+| R2,R3 | 1 kohm|SMD 0805 |2|
+| R4 | 100 ohm|SMD 0805 |1|
+| C1| 10uF|SMD_L3.2-W1.6|1|
+| C2,C4| 100nF|SMD 0805|2|
+| C3| 22uF|SMD_L3.2-W1.6|1|
+| L1,L2| RED/GREEN LED|SMD 0805|2|
+| SBL,RST|PUSH BUTTON |SMD_L3.9-W3.0-P4.45|2|
+| USB| USB A MALE|USB-A-SMD_USB-A-1-TH|1|
+| JTAG| PIN HEADER 5 PIN|2.54x5P|1|
+| ANT| SMA ANTENNA PORT 1.6mm||1|
+| D1| ESD USBLC6-2SC6|SOT-23-6|1|
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**WARNING** D1 is used only for CH340C version stick.
 
-### Jekyll Themes
+Next items are not available on LCSC,you can get them on Aliexpress:
+ - [RF-BM-2652P1/P2](https://letyshops.com/r/aliexpress-f6e2c6d280d5)
+ - [RP-SMA Antenna PCB Connector 1.2/1.6mm](https://letyshops.com/r/aliexpress-e6704ce906c0)
+ - [RP-SMA Antenna Female - Inner hole](https://letyshops.com/r/aliexpress-14123aa4ecca)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mercenaruss/zigbee-stick-v4/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Downloads
+ - [Gerbers](https://github.com/mercenaruss/zigbee-stick-v4/tree/main/files/gerber)
+ - [STL Case](https://github.com/mercenaruss/zigbee-stick-v4/tree/main/files/STL)
+ - [Schematics (pdf), Revision 1](https://github.com/mercenaruss/zigbee-stick-v4/tree/main/files/schematics)
+ - [LCSC Boom File](https://github.com/mercenaruss/zigbee-stick-v4/blob/main/files/BOM_Zigbee%20Stick%204.0%20CH340E-C.csv)
 
-### Support or Contact
+### Thanks go to:
+- [@Jager](https://github.com/jager-f), [@Palco](https://github.com/palko), [@Egony](https://github.com/egony) for design review and comments
+- Name Credit goes to [ZigDev](https://t.me/zigdev), before board had a very boring name.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Contact 
+For general enquiries, suggestions and errors spotted: Email me at radu@grecu.info or write me directly in [Telegram](https://t.me/mercenaruss). Community contributions to this page are very much encouraged so you could also send pull requests with your proposed changes.
+
+### Disclamer
+We use aliexpress affiliate links for the components and the tools. Some Ad-blockers might block these links an thus they seem to appear broken. You will have to temporarely disable ad-blocker to open these links. 
+
+### License
+zigbee-stick-v4 is designed by DarthPCB's / Grecu Radu and licensed under the [GPL-3.0 License](https://opensource.org/licenses/GPL-3.0). 
