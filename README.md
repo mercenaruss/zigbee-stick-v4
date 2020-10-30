@@ -60,7 +60,7 @@ Next items are not available on LCSC,you can get them on Aliexpress:
 
 ### Thanks go to:
 - [@Jager](https://github.com/jager-f), [@Palco](https://github.com/palko), [@Egony](https://github.com/egony) for design review and comments
-- Name Credit goes to [ZigDev](https://t.me/zigdev), before board had a very boring name.
+- Name Credit goes to [nurikk](https://github.com/nurikk), before board had a very boring name. Many thanks to him for a lot of work on Z2M and DIY Devices.
 
 ## Contact 
 For general enquiries, suggestions and errors spotted: Email me at radu@grecu.info or write me directly in [Telegram](https://t.me/mercenaruss). Community contributions to this page are very much encouraged so you could also send pull requests with your proposed changes.
