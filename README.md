@@ -1,4 +1,4 @@
-# Zigbee Stick v4.0
+# ZigStar
 
 ![](/files/images/3DDefault.PNG)
 
