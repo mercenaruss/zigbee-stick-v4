@@ -10,7 +10,7 @@
 - 2 LED for indication
 - Compatible with [Z2M](https://www.zigbee2mqtt.io/)
 - SMA antenna port for an external antenna
-- Self-programming via the TI [CC-series serial bootloader](http://www.ti.com/lit/an/swra466c/swra466c.pdf). If is not disabled in code.
+- Self-programming via the [cc2538-bsl](https://github.com/JelmerT/cc2538-bsl).No external programmer needed! Push BSL button to trigger this mode.
 - Communicates via the common CH340E/CH340C USB-UART Bridge
 
 Boards fit in [v.3 Stick Case](https://github.com/mercenaruss/zigbee-stick-v4/tree/main/files/STL) designed by [Jager](https://github.com/Jager-f)
