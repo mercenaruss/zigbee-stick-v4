@@ -53,8 +53,9 @@ Next items are not available on LCSC,you can get them on Aliexpress:
  - [RP-SMA Antenna Female - Inner hole](https://letyshops.com/r/aliexpress-14123aa4ecca)
 ### Firmware
 
-Module is compatible with [Z2M](https://www.zigbee2mqtt.io/)
-Firmware [CC1352P_2](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P_2_20201026.zip)
+Module is compatible with [Z2M](https://www.zigbee2mqtt.io/).
+Firmware [CC1352P_2](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P_2_20201026.zip).
+
 TX power can be adjusted in zigbee2mqtt config section:
 
     experimental:
