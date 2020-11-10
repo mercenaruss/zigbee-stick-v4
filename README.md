@@ -51,6 +51,10 @@ Next items are not available on LCSC,you can get them on Aliexpress:
  - [RF-BM-2652P1/P2](https://letyshops.com/r/aliexpress-f6e2c6d280d5)
  - [RP-SMA Antenna PCB Connector 1.2/1.6mm](https://letyshops.com/r/aliexpress-e6704ce906c0)
  - [RP-SMA Antenna Female - Inner hole](https://letyshops.com/r/aliexpress-14123aa4ecca)
+### Firmware
+
+Module is compatible with [Z2M](https://www.zigbee2mqtt.io/)
+Firmware [CC1352P_2](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P_2_20201026.zip)
 
 ### Downloads
  - [Gerbers](https://github.com/mercenaruss/zigbee-stick-v4/tree/main/files/gerber)
