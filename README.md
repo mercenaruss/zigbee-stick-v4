@@ -55,6 +55,12 @@ Next items are not available on LCSC,you can get them on Aliexpress:
 
 Module is compatible with [Z2M](https://www.zigbee2mqtt.io/)
 Firmware [CC1352P_2](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/bin/CC1352P_2_20201026.zip)
+TX power can be adjusted in zigbee2mqtt config section:
+
+    experimental:
+      transmit_power: 20
+
+Available TX power values: -20,-18,-15,-12,-10,-9,-6,-5,-3,0,1..5,14..20
 
 ### Downloads
  - [Gerbers](https://github.com/mercenaruss/zigbee-stick-v4/tree/main/files/gerber)
