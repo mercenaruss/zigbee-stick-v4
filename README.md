@@ -56,10 +56,10 @@ Next items are not available on LCSC,you can get them on Aliexpress:
 Module is compatible with [Z2M](https://www.zigbee2mqtt.io/).
 Firmware [CC1352P2_CC2652P](https://github.com/Koenkk/Z-Stack-firmware/blob/develop/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_launchpad_20201113.zip).
 
-TX power can be adjusted in zigbee2mqtt config section:
+Defuault TX Power is 20dbm. It can be lowered in zigbee2mqtt config section:
 
     experimental:
-      transmit_power: 20
+      transmit_power: 5
 
 Available TX power values: -20,-18,-15,-12,-10,-9,-6,-5,-3,0,1..5,14..20
 
