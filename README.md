@@ -2,8 +2,6 @@
 
 ![](/files/images/3DDefault.PNG)
 
-![](/files/images/zigbe_shield/3DDefault.PNG)
-
 ## Features:
 
 - [TI CC2652P](https://www.ti.com/product/CC2652P) SimpleLink™ 2.4 GHz Multiprotocol Wireless MCU targeting Zigbee,Bluetooth 5.1 Low Energy,Thread + 19.5-dBm high-power amplifier
