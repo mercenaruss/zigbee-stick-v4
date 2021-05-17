@@ -1,6 +1,7 @@
-# ZigStar Stick and Shield ([ZIG-STAR.COM](https://zig-star.com)
+# ZigStar Stick and Shield [ZIG-STAR.COM](https://zig-star.com)
 
 ![](/files/images/3DDefault.PNG)
+
 ![](/files/images/zigbe_shield/3DDefault.PNG)
 
 ## Features:
