@@ -2,6 +2,8 @@
 
 ![](/files/images/3DDefault.PNG)
 
+<a href="https://www.tindie.com/stores/zigstar/?ref=offsite_badges&utm_source=sellers_mercenaruss&utm_medium=badges&utm_campaign=badge_small"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-smalls.png" alt="I sell on Tindie" width="200" height="55"></a>
+
 ## Features:
 
 - [TI CC2652P](https://www.ti.com/product/CC2652P) SimpleLink™ 2.4 GHz Multiprotocol Wireless MCU targeting Zigbee,Bluetooth 5.1 Low Energy,Thread + 19.5-dBm high-power amplifier
