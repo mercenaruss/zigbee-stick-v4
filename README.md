@@ -23,4 +23,4 @@ Web-site is filled gradually.
 For general enquiries, suggestions and errors spotted: Email me at support@zig-star.com or write me directly in [Telegram](https://t.me/mercenaruss). Community contributions to this page are very much encouraged so you could also send pull requests with your proposed changes.
 
 ### License
-zigbee-stick-v4 is designed by DarthPCB's / Grecu Radu and licensed under the [GPL-3.0 License](https://opensource.org/licenses/GPL-3.0). 
+zigbee-stick-v4 is designed by DarthPCB's / Grecu Radu and licensed under the [Solderpad Hardware License v2.1](http://solderpad.org/licenses/SHL-2.1/). 
