@@ -10,7 +10,7 @@
 - Support RF-BM-2652P1 and RF-BM-2652P2 Module from RF-STAR,with CC2652P on board
 - BSL,RST Buttons
 - 2 LED for indication
-- Compatible with [Z2M](https://www.zigbee2mqtt.io/)
+- Compatible with [Z2M](https://www.zigbee2mqtt.io/) and [ZHA](https://www.home-assistant.io/integrations/zha)
 - SMA antenna port for an external antenna
 - Self-programming via the [cc2538-bsl](https://github.com/JelmerT/cc2538-bsl).No external programmer needed! Push BSL button to trigger this mode.
 - Communicates via the common CH340E/CH340C USB-UART Bridge
